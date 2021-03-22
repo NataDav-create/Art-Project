@@ -609,8 +609,8 @@ h4 {
   font-family: 'Circe Extra Bold', sans-serif;
   margin-left: 4rem;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border: none;
   display: block;
   font-size: 1.9rem;
@@ -622,8 +622,8 @@ h4 {
   font-family: 'Circe Extra Bold', sans-serif;
   margin-left: 4rem;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border: none;
   display: block;
   font-size: 1.9rem;
@@ -1088,7 +1088,19 @@ h4 {
   border-bottom: 2px dotted #333;
 }
 
+.often-questions p.active-style span {
+  color: #e950d7;
+  font-weight: 900;
+  text-decoration: none;
+  border: none;
+}
+
+.often-questions .accordion-heading.active+.accordion-block {
+  display: block;
+}
+
 .often-questions .accordion-block {
+  display: none;
   margin-top: 1rem;
   background-color: #f7e7e6;
   padding: 3rem 4rem;
@@ -1274,6 +1286,118 @@ h4 {
   width: 100%;
   color: inherit;
   resize: none;
+}
+
+.popup-consultation .form input::-webkit-input-placeholder,
+.popup-consultation .form textarea::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-moz-placeholder,
+.popup-consultation .form textarea::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input:-ms-input-placeholder,
+.popup-consultation .form textarea:-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-ms-input-placeholder,
+.popup-consultation .form textarea::-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-webkit-input-placeholder,
+.popup-consultation .form textarea::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-moz-placeholder,
+.popup-consultation .form textarea::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input:-ms-input-placeholder,
+.popup-consultation .form textarea:-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-ms-input-placeholder,
+.popup-consultation .form textarea::-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-webkit-input-placeholder,
+.popup-consultation .form textarea::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-moz-placeholder,
+.popup-consultation .form textarea::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input:-ms-input-placeholder,
+.popup-consultation .form textarea:-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-ms-input-placeholder,
+.popup-consultation .form textarea::-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-webkit-input-placeholder,
+.popup-consultation .form textarea::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-moz-placeholder,
+.popup-consultation .form textarea::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input:-ms-input-placeholder,
+.popup-consultation .form textarea:-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-consultation .form input::-ms-input-placeholder,
+.popup-consultation .form textarea::-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
 }
 
 .popup-consultation .form input::-webkit-input-placeholder, .popup-consultation .form textarea::-webkit-input-placeholder {
@@ -1499,6 +1623,118 @@ h4 {
   width: 100%;
   color: inherit;
   resize: none;
+}
+
+.popup-design .form input::-webkit-input-placeholder,
+.popup-design .form textarea::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-moz-placeholder,
+.popup-design .form textarea::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input:-ms-input-placeholder,
+.popup-design .form textarea:-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-ms-input-placeholder,
+.popup-design .form textarea::-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-webkit-input-placeholder,
+.popup-design .form textarea::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-moz-placeholder,
+.popup-design .form textarea::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input:-ms-input-placeholder,
+.popup-design .form textarea:-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-ms-input-placeholder,
+.popup-design .form textarea::-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-webkit-input-placeholder,
+.popup-design .form textarea::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-moz-placeholder,
+.popup-design .form textarea::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input:-ms-input-placeholder,
+.popup-design .form textarea:-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-ms-input-placeholder,
+.popup-design .form textarea::-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-webkit-input-placeholder,
+.popup-design .form textarea::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-moz-placeholder,
+.popup-design .form textarea::-moz-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input:-ms-input-placeholder,
+.popup-design .form textarea:-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
+}
+
+.popup-design .form input::-ms-input-placeholder,
+.popup-design .form textarea::-ms-input-placeholder {
+  color: black;
+  text-align: center;
+  font-family: 'Circe Bold', sans-serif;
 }
 
 .popup-design .form input::-webkit-input-placeholder, .popup-design .form textarea::-webkit-input-placeholder {
